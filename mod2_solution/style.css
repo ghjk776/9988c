@@ -1,0 +1,63 @@
+h1
+{
+    text-align: center;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    position: relative;
+    font-family: Arial, Cambria, sans-serif;
+    background-color: cornsilk;
+}
+
+section
+{
+    border: 3px solid black;
+    padding: 0px 2px 0px 7px;
+    float: left;
+    color: crimson;
+    background-color: aqua;
+}
+
+h2
+{
+    text-align: center;
+    position: relative;
+}
+
+@media (min-width: 992px)
+{
+    #s1, #s2, #s3
+    {
+        width: 29%;
+        margin: 2%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px)
+{
+    #s1, #s2
+    {
+        width: 46%;
+        margin: 2%;
+    }
+    #s3
+    {
+        width: 96%;
+        margin: 2%;
+    }
+}
+
+@media (max-width: 768px)
+{
+    #s1, #s2, #s3
+    {
+        width: 96%;
+        margin: 2%;
+    }
+}
